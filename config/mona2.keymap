@@ -27,7 +27,7 @@
         pw2: pw2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(P) &kp O &kp P &kp A &kp R &kp T &kp T &kp O &kp W &kp N &kp NUMBER_1 &kp NUMBER_3 &kp NUMBER_2 &kp NUMBER_9 &kp EXCLAMATION>;
+            bindings = <&kp LS(R) &kp A &kp D &kp W &kp I &kp M &kp P &kp S &kp N0 &kp NUMBER_3 &kp NUMBER_1 &kp NUMBER_3 &kp NUMBER_2 &kp NUMBER_9 &kp EXCLAMATION>;
             label = "PW2";
         };
 
@@ -79,7 +79,7 @@
             bindings = <
 &kp Q      &kp W         &kp E            &kp R         &kp T                                            &kp Y                        &kp U  &kp I     &kp O     &kp P
 &kp A      &kp S         &kp D            &kp F         &kp G                     &bt BT_SEL 0           &kp H                        &kp J  &kp K     &kp L     &kp MINUS
-&kp Z      &kp X         &kp C            &kp V         &kp B      &pw3           &bt BT_SEL 1           &kp N                        &kp M  &mkp MB1  &mkp MB2  &kp EQUAL
+&kp Z      &kp X         &kp C            &kp V         &kp B      &pw2           &bt BT_SEL 1           &kp N                        &kp M  &mkp MB1  &mkp MB2  &kp EQUAL
 &kp LCTRL  &kp LEFT_ALT  &lt 4 BACKSLASH  &lt 3 ESCAPE  &lt 2 TAB  &lt 1 SPACE    &mt RIGHT_SHIFT ENTER  &mt LEFT_COMMAND LANGUAGE_1                             &pw1
             >;
 
