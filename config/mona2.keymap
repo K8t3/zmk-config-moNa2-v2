@@ -78,8 +78,8 @@
         default_layer {
             bindings = <
 &kp Q      &kp W         &kp E            &kp R         &kp T                                            &kp Y                        &kp U  &kp I     &kp O     &kp P
-&kp A      &kp S         &kp D            &kp F         &kp G                     &bt BT_SEL 0           &kp H                        &kp J  &kp K     &kp L     &kp MINUS
-&kp Z      &kp X         &kp C            &kp V         &kp B      &pw2           &bt BT_SEL 1           &kp N                        &kp M  &mkp MB1  &mkp MB2  &kp EQUAL
+&kp A      &kp S         &kp D            &kp F         &kp G                     &to 1                  &kp H                        &kp J  &kp K     &kp L     &kp MINUS
+&kp Z      &kp X         &kp C            &kp V         &kp B      &pw2           &to 2                  &kp N                        &kp M  &mkp MB1  &mkp MB2  &kp EQUAL
 &kp LCTRL  &kp LEFT_ALT  &lt 4 BACKSLASH  &lt 3 ESCAPE  &lt 2 TAB  &lt 1 SPACE    &mt RIGHT_SHIFT ENTER  &mt LEFT_COMMAND LANGUAGE_1                             &pw1
             >;
 
@@ -91,8 +91,8 @@
         layer_1 {
             bindings = <
 &kp EXCLAMATION     &kp AT             &kp UP_ARROW    &kp HASH           &kp PERCENT                                   &kp LCTRL     &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LG(LEFT_ARROW)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(RIGHT_ARROW)            &trans         &kp SLASH     &msc SCRL_UP    &kp COMMA      &kp PERIOD            &kp LS(LG(LESS_THAN))
-&kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp PIPE        &kp DOUBLE_QUOTES  &kp SQT              &trans    &trans         &kp QUESTION  &msc SCRL_DOWN  &kp SEMICOLON  &kp COLON             &kp LS(LG(GREATER_THAN))
+&kp LG(LEFT_ARROW)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(RIGHT_ARROW)            &bt BT_SEL 0   &kp SLASH     &msc SCRL_UP    &kp COMMA      &kp PERIOD            &kp LS(LG(LESS_THAN))
+&kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp PIPE        &kp DOUBLE_QUOTES  &kp SQT              &trans    &bt BT_SEL 1   &kp QUESTION  &msc SCRL_DOWN  &kp SEMICOLON  &kp COLON             &kp LS(LG(GREATER_THAN))
 &mail               &pw3               &pw2            &trans             &trans               &trans    &kp BACKSPACE  &kp LANG2                                                          &kp LS(LG(NUMBER_4))
             >;
 
