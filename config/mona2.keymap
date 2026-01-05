@@ -98,8 +98,8 @@
         layer_1 {
             bindings = <
 &kp EXCLAMATION     &kp AT             &kp UP_ARROW    &kp HASH           &kp PERCENT                                   &kp LCTRL     &kp AMPERSAND   &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LG(LEFT_ARROW)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(RIGHT_ARROW)            &bt BT_SEL 0   &kp SLASH     &msc SCRL_UP    &kp COMMA      &kp PERIOD            &kp LS(LG(LESS_THAN))
-&kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp PIPE        &kp DOUBLE_QUOTES  &kp SQT              &trans    &bt BT_SEL 1   &kp QUESTION  &msc SCRL_DOWN  &kp SEMICOLON  &kp COLON             &kp LS(LG(GREATER_THAN))
+&kp LG(LEFT_ARROW)  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp LG(RIGHT_ARROW)            &trans         &kp SLASH     &msc SCRL_UP    &kp COMMA      &kp PERIOD            &kp LS(LG(LESS_THAN))
+&kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp PIPE        &kp DOUBLE_QUOTES  &kp SQT              &trans    &trans         &kp QUESTION  &msc SCRL_DOWN  &kp SEMICOLON  &kp COLON             &kp LS(LG(GREATER_THAN))
 &mail               &pw3               &pw2            &trans             &trans               &trans    &kp BACKSPACE  &kp LANG2                                                          &kp LS(LG(NUMBER_4))
             >;
 
@@ -130,7 +130,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &kp B                          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
